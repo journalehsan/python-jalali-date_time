@@ -1,4 +1,4 @@
-# Example:
+from persain_jalali_date import PersianJalaliDate# Example:
 # date = PersianJalaliDate()
 # print(date.get_jalali_date())
 # print(date.get_jalali_date_time())

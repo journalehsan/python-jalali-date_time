@@ -1,4 +1,6 @@
-from persain_jalali_date import PersianJalaliDate# Example:
+from persain_jalali_date import PersianJalaliDate
+import datetime
+# Example:
 # date = PersianJalaliDate()
 # print(date.get_jalali_date())
 # print(date.get_jalali_date_time())
@@ -29,6 +31,7 @@ def main():
     print(date.gregorian_to_jalali(2021, 10, 1))
     # with day and month name
     print(date.convert_to_jalali_with_day_month_name(datetime.datetime.now()))
+
 
 
 if __name__ == "__main__":
